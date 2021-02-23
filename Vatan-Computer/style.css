@@ -1,0 +1,731 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  width: 160rem;
+  margin: auto;
+  font-size: 2rem;
+  background-color: #12588b;
+  position: relative;
+  padding-bottom: 2rem;
+}
+.contain {
+  width: 160rem;
+  background-color: #12588b;
+  z-index: 100;
+}
+.contain.sticky {
+  position: fixed;
+  background-color: #12588b;
+}
+.container {
+  width: 120rem !important;
+}
+
+/********** Kategoriler - dropdown ******************/
+
+.dropdown-1 {
+  color: #12588b !important;
+  font-size: 1.4rem;
+  font-weight: 600 !important;
+}
+
+.dropdown-first {
+  font-size: 1.4rem;
+  color: grey !important;
+  display: flex !important;
+  margin-bottom: 2rem;
+}
+
+.dropdown-first:first-child {
+  margin-top: 2rem;
+}
+
+.dropdown-second {
+  color: #12588b !important;
+  font-size: 2.5rem;
+  margin-right: 2rem !important;
+  width: 4rem !important;
+  text-align: center;
+}
+
+.category {
+  color: white;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  display: flex;
+}
+.category:hover {
+  color: white !important;
+}
+
+.categories {
+  display: flex !important;
+  padding: 0;
+}
+.categories-1 {
+  padding: 0.6rem 1.2rem;
+  color: #12588b;
+  display: inline !important;
+}
+/*************** Sepetim - dropdown ***********************/
+
+.cart {
+  color: white;
+  position: relative;
+}
+
+.dropdown-cart {
+  background-color: #12588b;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.mini-basket {
+  overflow: hidden;
+  width: 30rem;
+  right: 0 !important;
+  position: absolute;
+  left: unset !important;
+}
+
+.mini-basket-btn {
+  text-align: center;
+}
+
+.mini-basket-button {
+  width: 28rem;
+  padding: 1rem 2rem;
+  background-color: rgb(31, 170, 31);
+  border-radius: 3px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+
+.drop-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0.5rem 0.5rem 1rem 0;
+}
+
+.basket-remove {
+  border: none;
+  outline: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 1.2rem;
+  background-color: white;
+}
+
+.phone-image {
+  flex: 1;
+  width: 5rem;
+  margin-right: 1.5rem;
+}
+
+.phone-total {
+  flex: 3;
+}
+
+.phone-name {
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.4rem;
+  max-width: 18rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.phone-price {
+  color: #12588b;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.phone-name {
+  max-width: 18rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/******** form ************/
+
+.form-control {
+  line-height: 4rem !important;
+  background-color: #4a97ce !important;
+  border: none !important;
+  font-size: 1.5rem !important;
+  color: white !important;
+}
+
+input::placeholder {
+  font-size: 1.5rem;
+  color: white !important;
+}
+.btn-search_1 {
+  position: relative;
+}
+.btn-search {
+  position: absolute !important;
+  top: 22%;
+  left: 50%;
+  border: none;
+  background-color: #4a97ce;
+  color: white;
+}
+
+.btn-search:focus,
+input:focus {
+  outline: none;
+}
+
+.btn-search_1.active .btn-search {
+  transform: translateX(280px);
+}
+
+/************ Swiper slider *********/
+
+.swiper-pagination > .swiper-pagination-bullet {
+  opacity: 1;
+  border: white solid 1px;
+  background-color: transparent;
+}
+.swiper-pagination > .swiper-pagination-bullet-active {
+  background-color: white;
+}
+
+.swiper-button {
+  width: 120rem;
+}
+
+.swiper-button-prev {
+  color: black !important;
+}
+.swiper-button-next {
+  color: black !important;
+}
+
+/************** Section *******************/
+
+.membership {
+  color: white;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+input {
+  line-height: 3rem;
+}
+
+.image {
+  padding: 2rem;
+  padding-top: 12rem;
+}
+.images {
+  border-radius: 3px;
+}
+
+.image-big {
+  width: 585px !important;
+  height: 510px !important;
+}
+
+.image-sm {
+  width: 290px !important;
+  height: 510px !important;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+}
+
+.section-2 {
+  font-size: 3rem;
+}
+
+.section-3 {
+  color: #12588b;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.btn-right {
+  width: 0.8rem;
+  height: 0.8rem;
+  color: #12588b;
+  border: none;
+}
+
+.product {
+  border: 1px solid #ccc;
+  height: 45rem;
+  width: 23.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.product:hover {
+  border: 1px solid #12588b;
+}
+
+.web {
+  display: flex;
+  justify-content: center;
+  color: #12588b;
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+.web-1 {
+  background-color: #57aae6;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  padding: 0.5rem;
+}
+.product-1 {
+  height: 45rem;
+  width: 23.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.img {
+  width: 18rem;
+  height: 18rem;
+}
+
+.star {
+  color: orange;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+}
+.star-text {
+  color: orange;
+  margin-right: 0.5rem;
+}
+
+.comment {
+  color: rgb(136, 135, 135);
+  font-size: 1.5rem;
+}
+
+.code {
+  color: rgb(136, 135, 135);
+  font-size: 1.4rem;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.price-text {
+  color: #12588b;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.left-2 {
+  color: red;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.shipping-second {
+  text-transform: uppercase;
+  padding: 1.2rem;
+  display: inline;
+  text-align: center;
+  border: none;
+}
+
+/********* Sepete Ekle *********/
+
+.btn {
+  font-size: 1rem;
+  text-transform: uppercase;
+  display: inline;
+  text-align: center;
+  border: none;
+  position: relative;
+  overflow: hidden;
+}
+.btn:hover {
+  background-color: #478fc2 !important;
+}
+
+.btn-visible {
+  font-size: 1rem;
+  display: inline-block;
+  padding: 1rem;
+  top: 100%;
+  height: 100%;
+  transition: all 0.2s;
+}
+
+.btn-invisible {
+  font-size: 1.4rem;
+  display: inline-block;
+  position: absolute;
+  padding: 1rem 0;
+  left: 0;
+  top: 100%;
+  height: 100%;
+  width: 100%;
+  transition: all 0.2s;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sepet {
+  flex-grow: 1;
+}
+
+.btn:hover .btn-visible {
+  transform: translateY(100%);
+  color: white;
+}
+
+.btn:hover .btn-invisible {
+  top: 0;
+  color: white;
+}
+
+.icon-arrow {
+  margin-right: 2rem;
+  background-color: #12588b;
+  padding: 1.1rem 2rem;
+}
+
+/************* Footer **************/
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-width {
+  width: 100rem;
+  margin: 0 auto 5rem;
+}
+
+.category-1 {
+  flex: 2;
+}
+.category-2 {
+  flex: 2;
+}
+.category-3 {
+  flex: 1;
+}
+
+.footer_1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer_2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-1 {
+  flex: 0 0 50%;
+  list-style-type: none;
+  margin-bottom: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  color: grey;
+  padding: 0;
+}
+
+.title-footer {
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: grey;
+}
+
+.footer-second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem 0rem;
+}
+
+.text-footer {
+  font-family: "Open Sans", sans-serif;
+  color: grey;
+}
+
+.footer ul {
+  padding-left: 0;
+}
+
+@media screen and (max-width: 1800px) {
+  header {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    background-color: #12588b;
+    position: relative;
+    padding-bottom: 1.5rem;
+  }
+
+  .contain {
+    width: 100%;
+    background-color: #12588b;
+    z-index: 100;
+  }
+
+  main.container {
+    width: 150rem !important;
+  }
+  .container {
+    width: 120rem !important;
+    margin: 0 auto;
+  }
+
+  .product {
+    width: 20rem;
+  }
+
+  .img {
+    width: 13rem;
+    height: 13rem;
+  }
+
+  .product-1 {
+    width: 20rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+  .code {
+    color: #ccc;
+    font-size: 1.2rem;
+  }
+
+  .price-text {
+    font-size: 1.5rem;
+  }
+
+  .btn-invisible {
+    font-size: 1.2rem;
+  }
+
+  .footer-width {
+    font-size: 90rem !important;
+  }
+
+  .footer-second {
+    display: flex;
+    width: 100%;
+    padding: 6rem 0rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  header {
+    width: 100%;
+    font-size: 1.6rem;
+    background-color: #12588b;
+    position: relative;
+    padding-bottom: 2rem;
+  }
+
+  nav {
+    width: 100% !important;
+  }
+
+  .contain {
+    width: 100%;
+    background-color: #12588b;
+    z-index: 100;
+  }
+
+  .container {
+    width: 100% !important;
+  }
+
+  .img {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .product {
+    width: 21rem;
+  }
+
+  .product-1 {
+    width: 21rem;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+  .code {
+    color: #ccc;
+    font-size: 0.9rem;
+  }
+
+  .price-text {
+    font-size: 1.4rem;
+  }
+
+  .btn-invisible {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: #12588b;
+    position: relative;
+    padding-bottom: 2rem;
+  }
+  nav {
+    width: 100% !important;
+  }
+  .contain {
+    width: 100%;
+    background-color: #12588b;
+    z-index: 100;
+  }
+
+  .mini-basket {
+    width: 20rem;
+  }
+
+  .phone-image {
+    flex: 1;
+    width: 3rem;
+    margin-right: 1rem;
+  }
+
+  .phone-name {
+    max-width: 10rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .mini-basket-button {
+    width: 18rem;
+    font-size: 1.2rem;
+  }
+
+  .basket-remove {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.8rem;
+  }
+  .product {
+    width: 21rem;
+  }
+
+  .product-1 {
+    width: 21rem;
+  }
+  .title {
+    font-size: 1.1rem;
+  }
+  .code {
+    color: #ccc;
+    font-size: 1.2rem;
+  }
+
+  .price-text {
+    font-size: 1.4rem;
+  }
+
+  .star-text {
+    font-size: 1.1rem;
+  }
+
+  .category-1 {
+    width: 80%;
+  }
+  .category-2 {
+    width: 80%;
+  }
+  .category-3 {
+    width: 80%;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-1 {
+    flex: 0 0 33%;
+  }
+
+  .footer_3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .ft-3 {
+    flex: 0 0 33%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  header {
+    width: 100%;
+  }
+
+  .contain {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  nav {
+    width: 100% !important;
+  }
+
+  .product {
+    width: 15rem;
+  }
+  .title {
+    font-size: 0.7rem;
+  }
+  .code {
+    color: #ccc;
+    font-size: 0.6rem;
+  }
+}
